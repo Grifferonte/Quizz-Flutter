@@ -1,6 +1,9 @@
+// Library
 import 'package:flutter/material.dart';
-import 'package:quizz/view/quizzPage.dart';
+
+// Views
 import 'view/homePage.dart';
+import 'package:quizz/view/quizzPage.dart';
 
 void main() {
   runApp(const AppRouter());

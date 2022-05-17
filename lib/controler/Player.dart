@@ -4,8 +4,8 @@ class Player {
   Player(this.lastScore, this.bestScore);
 
   int get getLastScore => lastScore;
-  void set setLastScore(int newLastScore) => lastScore = newLastScore;
+  // void set setLastScore(int newLastScore) => lastScore = newLastScore;
 
   int get getBestScore => bestScore;
-  void set setBestScore(int newBestScore) => bestScore = newBestScore;
+  // void set setBestScore(int newBestScore) => bestScore = newBestScore;
 }

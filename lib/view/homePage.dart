@@ -1,5 +1,8 @@
+// Libraries
 import 'package:flutter/material.dart';
 import 'package:quizz/model/Player.dart';
+
+// Views
 import 'package:quizz/view/customWidgets/homeButton.dart';
 import 'package:quizz/view/customWidgets/customCard.dart';
 
@@ -10,9 +13,9 @@ class HomePage extends StatefulWidget {
   State<HomePage> createState() => _HomePage();
 }
 
-class _HomePage extends State<HomePage> {
-  Player player = Player(0, 0);
+Player player = Player(0, 0);
 
+class _HomePage extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     if (ModalRoute.of(context)!.settings.arguments != null) {
