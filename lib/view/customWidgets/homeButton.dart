@@ -17,11 +17,14 @@ class HomeButton extends StatefulWidget {
 class _HomeButtonState extends State<HomeButton> {
   @override
   Widget build(BuildContext context) {
-    return OutlinedButton(
-      onPressed: () {
-        Navigator.pushNamed(context, widget.route);
-      },
-      child: Text(widget.label),
+    return SizedBox(
+      height: 80,
+      child: OutlinedButton(
+        onPressed: () {
+          Navigator.pushNamed(context, widget.route);
+        },
+        child: Text(widget.label),
+      ),
     );
   }
 }

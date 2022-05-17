@@ -18,14 +18,15 @@ class _CustomCardState extends State<CustomCard> {
   @override
   Widget build(BuildContext context) {
     return Card(
-      child: Center(
-          child: SizedBox(
+      child: SizedBox(
         width: 100,
-        height: 20,
+        height: 50,
         child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [Text(widget.scoreField), Text(widget.score.toString())],
         ),
-      )),
+      ),
     );
   }
 }

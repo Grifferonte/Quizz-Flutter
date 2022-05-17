@@ -17,9 +17,8 @@ class _CustomImageState extends State<CustomImage> {
   Widget build(BuildContext context) {
     return Image.asset(
       widget.imgLabel,
-      width: 200,
-      height: 400,
-      fit: BoxFit.contain,
+      width: 300,
+      height: 500,
     );
   }
 }
